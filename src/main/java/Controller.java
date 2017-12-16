@@ -23,6 +23,6 @@ public class Controller implements Initializable {
     private VBox optionsPane;
 
     public void initialize(URL location, ResourceBundle resources) {
-        
+
     }
 }
