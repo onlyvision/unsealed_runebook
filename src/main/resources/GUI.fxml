@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="mainPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <SplitPane fx:id="selectionPane" dividerPositions="0.20050125313283207" prefHeight="600.0" prefWidth="800.0">
+        <items>
+            <VBox fx:id="optionsPane" prefHeight="200.0" prefWidth="100.0" />
+            <ScrollPane fx:id="championPane" hbarPolicy="NEVER" prefHeight="541.0" prefWidth="659.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
